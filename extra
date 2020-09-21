@@ -1,0 +1,47 @@
+react> main lib
+react-dom> help to render in html
+react-script> help to compile the app
+
+//////
+Component
+////////
+
+functional
+> light in weight
+> dumb Component
+> Use for display purpose
+> They can not manage state
+> we cannot call api in functional component
+
+ClassBase
+> heavy as compare to functional
+> logical component
+> use for display/api/state management
+
+
+state & props
+
+state                state
+componentA    =====> componentB
+             props
+
+state is a local variable
+props help to transfer data in nested component
+
+function add(a,b){
+    var add = a+b
+}
+
+
+add(1,2)
+
+parent  > child (props)
+child >parent(function)
+
+function add(a,b){
+    return a+b
+}
+
+add(10)
+
+npm i react-router-dom
