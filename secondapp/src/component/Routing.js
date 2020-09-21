@@ -4,6 +4,7 @@ import Home from './home';
 import About from './about';
 import Contact from './contact';
 import Header from './Header';
+import Details from './AboutDetails';
 
 const Routing = () => {
     return(
@@ -12,7 +13,8 @@ const Routing = () => {
                 <Header/>
                 <hr/>
                 <Route exact path="/" component={Home}/>
-                <Route  path="/about" component={About}/>
+                <Route  exact path="/about" component={About}/>
+                <Route  path="/about/:topic" component={Details}/>
                 <Route  path="/contact" component={Contact}/>
             </div>
         </BrowserRouter>
