@@ -3,12 +3,12 @@ import './QuickSearch.css';
 import {Link} from 'react-router-dom';
 
 const QuickDisplay = (props) => {
-
+ console.log()
     const listTrip = ({tripdata}) => {
         if(tripdata){
             return tripdata.map((item) => {
                 return(
-                    <Link to="/" key={item._id}>
+                    <Link to={`/list/${item._id}`} key={item._id}>
                         <div className="tileContainer">
                             <div className="tileComponent1">
                                 <img src={item.image}/>
