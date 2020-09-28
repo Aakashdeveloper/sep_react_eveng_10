@@ -29,9 +29,9 @@ class ListingApi extends Component {
 
     componentDidMount(){
         var tripid  = this.props.match.params.id;
-        sessionStorage.setItem('tripid',tripid)
+        sessionStorage.setItem('tripid',tripid);
         axios.get(`${url}${tripid}`)
-        .then((response) => { this.setState({hoteldata:response.data})})
+        .then((response) => { this.setState({hoteldata:response.data})});
     }
 }
 

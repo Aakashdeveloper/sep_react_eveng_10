@@ -66,7 +66,7 @@ http://developerhotel.herokuapp.com
 
 
 function add(a,b){
-    return a+b
+    return a.test+b.test
 }
 
 add({"test":1},{"test":2})

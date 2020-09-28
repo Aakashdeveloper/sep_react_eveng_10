@@ -150,7 +150,7 @@
 
 .Item {
     width: 875px;
-    height: 291px;
+    height: 320px;
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
     background-color: #ffffff;
     margin-bottom: 20px;
@@ -200,8 +200,8 @@
 }
 
 .Image {
-    width: 120px;
-    height: 120px;
+    width: 280px;
+    height: 220px;
     border-radius: 23px;
     background-color: #ea6060;
     margin-left:5%;
