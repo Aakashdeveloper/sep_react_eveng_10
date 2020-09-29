@@ -9,7 +9,8 @@ class ListingApi extends Component {
         super()
 
         this.state={
-            hoteldata:''
+            hoteldata:'',
+            error:''
         }
     }
 
@@ -31,7 +32,8 @@ class ListingApi extends Component {
         var tripid  = this.props.match.params.id;
         sessionStorage.setItem('tripid',tripid);
         axios.get(`${url}${tripid}`)
-        .then((response) => { this.setState({hoteldata:response.data})});
+        .then((response) => { this.setState({hoteldata:response.data})})
+        .catch(() => {this.setState({error:'Error While fetching data'})})
     }
 }
 

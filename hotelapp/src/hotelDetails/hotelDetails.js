@@ -11,7 +11,8 @@ class Details extends Component{
         super()
 
         this.state={
-            details:''
+            details:'',
+            tripid: sessionStorage.getItem('tripid')
         }
     }
 
@@ -63,6 +64,12 @@ class Details extends Component{
                                 </div>
                             </TabPanel>
                         </Tabs>
+                    </div>
+                    <div>
+                        &nbsp;
+                        <Link to={`/list/${this.state.tripid}`} className="btn btn-danger">Back</Link> &nbsp;
+                        <Link to={`/booking/${this.props.match.params.id}`} className="btn btn-success">Place Order</Link>
+                        <br/>
                     </div>
                 </div>
                 
