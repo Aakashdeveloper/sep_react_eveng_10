@@ -1,17 +1,17 @@
 Basic JavaScript
 Npm
 React = 3
+React-JWT(Login Logut)-1
+-> MERN
 //////////////
 React_hooks -1
 React-Redux =2
 Mock API
 json-server
 React-GarphQL 1
-React-JWT(Login Logut)-1
 React-Saga -1
 Basic React Native=1
 Depolyment
--> MERN
 Testing
 -> Docker
 -> Nginx
@@ -122,3 +122,6 @@ https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/
 (Header) => {'x-access-token':'token value from login'}
 (response) => {userinfo}
 JWT
+
+
+npm run build
