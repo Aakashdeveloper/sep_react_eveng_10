@@ -5,6 +5,7 @@ import About from './about';
 import Contact from './contact';
 import Header from './Header';
 import Details from './AboutDetails';
+import LifeCycle from './LifeCycle';
 
 const Routing = () => {
     return(
@@ -16,6 +17,7 @@ const Routing = () => {
                 <Route  exact path="/about" component={About}/>
                 <Route  path="/about/:topic" component={Details}/>
                 <Route  path="/contact" component={Contact}/>
+                <Route  path="/lifeCycle" component={LifeCycle}/>
             </div>
         </BrowserRouter>
     )

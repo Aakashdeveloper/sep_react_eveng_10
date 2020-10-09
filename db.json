@@ -1,0 +1,22 @@
+{
+    "mydata":[
+        {
+            "id":1,
+            "name":"John"
+        },
+        {
+            "id":2,
+            "name":"Alvin"
+        }
+    ],
+    "hotels":[
+        {
+            "id":1,
+            "name":"Snow Bliss"
+        },
+        {
+            "id":2,
+            "name":"AMA Cafe"
+        }
+    ]
+}
