@@ -5,8 +5,8 @@ React-JWT(Login Logut)-1
 -> MERN
 Mock API
 json-server
-//////////////
 React_hooks -1
+//////////////
 React-GarphQL 1
 > Heroku
 React-Redux =2
@@ -155,3 +155,32 @@ json-server --watch db.json --port 8700
 #mac/linux
 sudo npm i -g json-server
 json-server --watch db.json --port 8700
+
+
+state
+api call
+lifecycle method
+
+https://git-scm.com/downloads
+/////
+First Time from new folder
+//////
+
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/Aakashdeveloper/ynottest.git
+git push -u origin master
+
+/////
+second and all Time
+//////
+git add .
+git commit -m "first commit"
+git push
+
+git checkout -b myfeature
+
+git add .
+git commit -m "first commit"
+git push -u origin myfeature
