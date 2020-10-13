@@ -2,22 +2,23 @@ Basic JavaScript
 Npm
 React = 3
 React-JWT(Login Logut)-1
--> MERN
 Mock API
 json-server
 React_hooks -1
-//////////////
+Depolyment
+-> Heroku
+-> MERN
+-> Docker
+Github
 React-GarphQL 1
-> Heroku
+//////////////
+
 React-Redux =2
 React-Saga -1
 Basic React Native=1
-Depolyment
 Testing
--> Docker
 -> Nginx
 
-Github
 --------NOT--------------
 API
 GarphQL
@@ -184,3 +185,19 @@ git checkout -b myfeature
 git add .
 git commit -m "first commit"
 git push -u origin myfeature
+
+https://www.youtube.com/c/DeveloperFunnel/videos?view_as=subscriber
+
+//gql///
+{
+  product(id:4){
+    name,
+    rating_text
+  }
+}
+
+npm i apollo-garphql apollo-boost graphql react-apollo graphql-tag
+
+
+docker build . -t mysep10
+docker run -p 9090:3000 mysep10
