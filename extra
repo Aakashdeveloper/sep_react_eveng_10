@@ -201,3 +201,17 @@ npm i apollo-garphql apollo-boost graphql react-apollo graphql-tag
 
 docker build . -t mysep10
 docker run -p 9090:3000 mysep10
+
+
+///////////
+Framework for react
+////////
+Maintain state
+Structure of app
+passing data in non nested component 
+npm i redux react-redux redux-logger
+
+store
+action
+reducer
+view
