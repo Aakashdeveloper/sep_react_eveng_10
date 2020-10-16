@@ -12,11 +12,11 @@ Depolyment
 Github
 React-GarphQL 1
 //////////////
-
 React-Redux =2
+Testing
 React-Saga -1
 Basic React Native=1
-Testing
+
 -> Nginx
 
 --------NOT--------------
@@ -215,3 +215,5 @@ store
 action
 reducer
 view
+
+npm i prop-types redux react-redux react-router-dom react-slick redux-logger redux-promise enzyme enzyme-adapter-react-16 react-addons-test-utils react-test-renderer
