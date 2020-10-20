@@ -4,6 +4,7 @@ import {connect} from 'react-redux';
 import PropTypes from 'prop-types';
 import LatestDisplay from '../component/Home/LatestDisplay';
 import ArticleDisplay from '../component/Home/ArticleDisplay';
+import GalleryDisplay from '../component/Home/GalleryDisplay';
 
 class Home extends Component{
     componentDidMount(){
@@ -17,6 +18,7 @@ class Home extends Component{
            <React.Fragment>
                <LatestDisplay ldata={this.props.datalist.latestNews}/>
                <ArticleDisplay adata={this.props.datalist.articleNews}/>
+               <GalleryDisplay gdata={this.props.gallist.galleryNews}/>
            </React.Fragment>
         )
     }
