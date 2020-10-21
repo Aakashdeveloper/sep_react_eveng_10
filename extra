@@ -9,15 +9,13 @@ Depolyment
 -> Heroku
 -> MERN
 -> Docker
+-> Nginx
 Github
 React-GarphQL 1
 React-Redux =2
 Testing
-//////////////
 React-Saga -1
 Basic React Native=1
-
--> Nginx
 
 --------NOT--------------
 API
@@ -224,3 +222,35 @@ npm i -g create-react-native-app
 
 > create-react-native-app appname
 > npm run web
+
+https://www.youtube.com/watch?v=i9g2Sg10DPk&t=13s
+
+function loopme(userinput){
+  for(i=0;i<userinput;i++){
+    console.log(i)
+  }
+}
+
+
+function * loopme(userinput){
+  for(i=0;i<userinput;i++){
+    yield i
+  }
+}
+undefined
+loopme(5)
+loopme {<suspended>}
+var data = loopme(5)
+undefined
+data.next()
+{value: 0, done: false}
+data.next()
+{value: 1, done: false}
+data.next()
+{value: 2, done: false}
+data.next()
+{value: 3, done: false}
+data.next()
+{value: 4, done: false}
+data.next()
+{value: undefined, done: true}
